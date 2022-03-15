@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="8" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T13:31:00 IST" name="Suite" finished-at="2022-03-10T13:34:00 IST" duration-ms="180340">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T13:31:00 IST" name="ChromeTest" finished-at="2022-03-10T13:32:12 IST" duration-ms="72079">
+      <class name="test.VerifyApplicationHeader">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:00 IST" name="launchbrowser" finished-at="2022-03-10T13:31:18 IST" duration-ms="17754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:18 IST" name="createPOMObjects" finished-at="2022-03-10T13:31:18 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:18 IST" name="loginToApplication" finished-at="2022-03-10T13:31:29 IST" duration-ms="10873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyTimeTrackTab()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:29 IST" name="verifyTimeTrackTab" finished-at="2022-03-10T13:31:30 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTimeTrackTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:30 IST" name="logoutOfApplication" finished-at="2022-03-10T13:31:30 IST" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTimeTrackTab status=SUCCESS method=VerifyApplicationHeader.verifyTimeTrackTab()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:30 IST" name="loginToApplication" finished-at="2022-03-10T13:31:34 IST" duration-ms="4100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyTasksTab()[pri:1, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:34 IST" name="verifyTasksTab" finished-at="2022-03-10T13:31:36 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:36 IST" name="logoutOfApplication" finished-at="2022-03-10T13:31:37 IST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTasksTab status=SUCCESS method=VerifyApplicationHeader.verifyTasksTab()[pri:1, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:37 IST" name="loginToApplication" finished-at="2022-03-10T13:31:41 IST" duration-ms="3833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyReportTab()[pri:2, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:41 IST" name="verifyReportTab" finished-at="2022-03-10T13:31:42 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:42 IST" name="logoutOfApplication" finished-at="2022-03-10T13:31:42 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReportTab status=SUCCESS method=VerifyApplicationHeader.verifyReportTab()[pri:2, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:42 IST" name="loginToApplication" finished-at="2022-03-10T13:31:46 IST" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTab()[pri:3, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:46 IST" name="verifyUserTab" finished-at="2022-03-10T13:31:55 IST" duration-ms="8934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:55 IST" name="logoutOfApplication" finished-at="2022-03-10T13:31:55 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserTab status=SUCCESS method=VerifyApplicationHeader.verifyUserTab()[pri:3, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:55 IST" name="loginToApplication" finished-at="2022-03-10T13:31:59 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:59 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:31:59 IST" duration-ms="623" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:31:59 IST" name="logoutOfApplication" finished-at="2022-03-10T13:32:01 IST" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:01 IST" name="loginToApplication" finished-at="2022-03-10T13:32:04 IST" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:04 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:32:06 IST" duration-ms="1172" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:06 IST" name="logoutOfApplication" finished-at="2022-03-10T13:32:06 IST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:06 IST" name="loginToApplication" finished-at="2022-03-10T13:32:10 IST" duration-ms="3708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:10 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:32:10 IST" duration-ms="725" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:10 IST" name="logoutOfApplication" finished-at="2022-03-10T13:32:11 IST" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@6631f5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:11 IST" name="clearPOMObjects" finished-at="2022-03-10T13:32:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.VerifyApplicationHeader@6631f5ca]" started-at="2022-03-10T13:32:11 IST" name="closeBrowser" finished-at="2022-03-10T13:32:12 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.VerifyApplicationHeader -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-03-10T13:32:13 IST" name="EdgeTest" finished-at="2022-03-10T13:34:00 IST" duration-ms="107798">
+      <class name="test.VerifyApplicationHeader">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:32:13 IST" name="launchbrowser" finished-at="2022-03-10T13:33:03 IST" duration-ms="50577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:03 IST" name="createPOMObjects" finished-at="2022-03-10T13:33:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:03 IST" name="loginToApplication" finished-at="2022-03-10T13:33:10 IST" duration-ms="7151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyTimeTrackTab()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:10 IST" name="verifyTimeTrackTab" finished-at="2022-03-10T13:33:12 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTimeTrackTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:12 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:12 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTimeTrackTab status=SUCCESS method=VerifyApplicationHeader.verifyTimeTrackTab()[pri:0, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:12 IST" name="loginToApplication" finished-at="2022-03-10T13:33:16 IST" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyTasksTab()[pri:1, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:16 IST" name="verifyTasksTab" finished-at="2022-03-10T13:33:20 IST" duration-ms="4127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:20 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:21 IST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTasksTab status=SUCCESS method=VerifyApplicationHeader.verifyTasksTab()[pri:1, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:21 IST" name="loginToApplication" finished-at="2022-03-10T13:33:32 IST" duration-ms="10695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyReportTab()[pri:2, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:32 IST" name="verifyReportTab" finished-at="2022-03-10T13:33:35 IST" duration-ms="3304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:35 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:36 IST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyReportTab status=SUCCESS method=VerifyApplicationHeader.verifyReportTab()[pri:2, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:36 IST" name="loginToApplication" finished-at="2022-03-10T13:33:40 IST" duration-ms="3915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTab()[pri:3, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:40 IST" name="verifyUserTab" finished-at="2022-03-10T13:33:44 IST" duration-ms="3732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:44 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:44 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserTab status=SUCCESS method=VerifyApplicationHeader.verifyUserTab()[pri:3, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:44 IST" name="loginToApplication" finished-at="2022-03-10T13:33:48 IST" duration-ms="3709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:48 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:33:49 IST" duration-ms="957" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:49 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:49 IST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:49 IST" name="loginToApplication" finished-at="2022-03-10T13:33:53 IST" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:53 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:33:54 IST" duration-ms="400" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:54 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:54 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:54 IST" name="loginToApplication" finished-at="2022-03-10T13:33:58 IST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:58 IST" name="verifyWorkScheduleTab" finished-at="2022-03-10T13:33:59 IST" duration-ms="719" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at test.VerifyApplicationHeader.verifyWorkScheduleTab(VerifyApplicationHeader.java:213)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkScheduleTab -->
+        <test-method is-config="true" signature="logoutOfApplication(org.testng.ITestResult)[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:59 IST" name="logoutOfApplication" finished-at="2022-03-10T13:33:59 IST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkScheduleTab status=FAILURE method=VerifyApplicationHeader.verifyWorkScheduleTab()[pri:4, instance:test.VerifyApplicationHeader@ea6147e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:59 IST" name="clearPOMObjects" finished-at="2022-03-10T13:33:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.VerifyApplicationHeader@ea6147e]" started-at="2022-03-10T13:33:59 IST" name="closeBrowser" finished-at="2022-03-10T13:34:00 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.VerifyApplicationHeader -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
